@@ -217,6 +217,19 @@ th, td {
   padding-right: 10px;
 }
 
+/* column */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*scrollbar*/
 #passages::-webkit-scrollbar {
   width: 3px;
@@ -889,7 +902,14 @@ a:hover {
 	top: 9.5%;
   }
 }
-  
+ 
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 /*mobile portrait*/
 @media screen and (max-width: 420px) {
   body {
@@ -1517,7 +1537,7 @@ Much of the current research in computer game pedagogy is based on the work of c
 
 !! Constructionist Learning Theory
 
-&lt;img src=&quot;images/CLMdiagram.png&quot; alt=&quot;A diagram of Constructionist Learning&quot; /&gt;
+&lt;img src=&quot;images/CLMdiagram.png&quot; alt=&quot;A diagram of Constructionist Learning&quot; width="400" height="480"/&gt;
 Building on the theories of &lt;a href=&quot; https://piaget.org/about-piaget/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Jean Piaget&lt;/a&gt;, Papert proposed that children generate knowledge by working on projects with their peers, rather than receiving knowledge from teachers through lectures and other passive forms of transmission (Papert, 1980; Denner, et al, 2019).  While building objects or solving problems with others, children draw conclusions; by connecting those conclusions to what they already know, children are also building new knowledge (Papert, 1980). 
 
 !!Computational Thinking
@@ -1544,13 +1564,16 @@ Despite widespread belief in the educational promise of computer game programmin
 
 !!Debugging the research
 
-&lt;img src=&quot;https://i.kym-cdn.com/photos/images/original/002/368/608/3ff.jpg&quot; alt=&quot;LOLcat debugging code&quot; width="125" height="150"/&gt;
-
-Let&#39;s take a look at how two groups of researchers interrogated some of these assumptions:
+<div class="row">
+  <div class="column">
+	Let&#39;s take a look at how two groups of researchers interrogated some of these assumptions:
 
 &lt;span class=&quot;lnr lnr-bug&quot;&gt;&lt;/span&gt;A meta-synthesis of the research
-&lt;span class=&quot;lnr lnr-bug&quot;&gt;&lt;/span&gt;A survey of 60 Toronto middle school students                                                                    
-
+&lt;span class=&quot;lnr lnr-bug&quot;&gt;&lt;/span&gt;A survey of 60 Toronto middle school students 
+	</div>
+  <div class="column">&lt;img src=&quot;https://i.kym-cdn.com/photos/images/original/002/368/608/3ff.jpg&quot; alt=&quot;LOLcat debugging code&quot; width="200" height="240"/&gt;</div>
+</div>
+                                                                 
 !!!How do you want to proceed?
 
 *[[Give me the big picture first!|4]]
