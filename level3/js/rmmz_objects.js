@@ -10472,6 +10472,17 @@ Game_Interpreter.prototype.command139 = function(params) {
     return true;
 };
 
+// Change MP
+Game_Interpreter.prototype.command505 = function(params) {
+	$gameActors.actor(2).gainMp(10);
+	return true;
+};
+
+// Change HP
+Game_Interpreter.prototype.command506 = function(params) {
+	this.changeHp($gameActors.actor(2), -20, false);
+};
+
 // Change Vehicle BGM
 Game_Interpreter.prototype.command140 = function(params) {
     const vehicle = $gameMap.vehicle(params[0]);
