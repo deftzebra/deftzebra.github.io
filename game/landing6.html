@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>To Exist in Pieces</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>ETEC 544</strong> <span>Final Digital Game</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/L1B_alt.png" alt="" />
+							</span>
+							<header class="major">
+								<h1>Level 6</h1>
+							</header>
+							<div class="content">
+								<p>Alone</p>
+								<p>
+								<ul class="actions">
+								<li>
+								<a href="#one" class="button next scrolly">Storyboard</a>
+								</li>
+								</ul>
+								</p>
+								</div>
+								<i class="fa fa-desktop modal-button" href="#myModal"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<i class="fa fa-user modal-button" href="#myModal2"></i>
+								</div>
+					</section>
+				<!-- Modal1 -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+<div class="modal-content">
+<div class="modal-header">
+<button class="button small" onclick="document.getElementById('myModal').style.display='none'" style="float: right">X</button></div>
+  <div class="modal-body">
+    <h2>Objective</h2>
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+
+</div>
+</div>
+				<!-- Modal2 -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+<div class="modal-content">
+<div class="modal-header">
+<button class="button small" onclick="document.getElementById('myModal2').style.display='none'" style="float: right">X</button></div>
+  <div class="modal-body">
+    <h2>Statistics</h2>
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+
+</div>
+</div>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Cutscene</h2>
+									</header>
+								<p><i class="icon solid fa-film fa-pull-left" style="padding-right: 10px"></i>IN THE APARTMENT- A ONE-ROOM DIMLY-LIT STUDIO APARTMENT. YOU ARE SEATED ON THE BED, LOOKING AT YOUR PHONE. THE SCREEN TAKES UP HALF OF THE PLAYER’S SCREEN SO THEY CAN INTERACT WITH THE PHONE SCREEN.</p>
+								<blockquote>My phone background hasn’t changed since before the bombings. It’s still Dad, Mom, and me.</blockquote>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+								<header class="major">
+										<h2>Interactions</h2>
+									</header>
+									
+									<div class="tablet">
+ <div class="content">
+   <iframe src="level6int.html" style="width:95%;border:none;height:100%; margin: auto; position:absolute;"></iframe>
+  </div>
+</div>
+<br>
+<p><i class="icon solid fa-music fa-pull-left" style="padding-right: 10px"></i>MUSIC PLAYS</p>
+								<blockquote>This was Dad’s favourite song. He always pretended he hated it, but he danced along while helping sweep. I want to see him dancing with Mom again… *sob*</blockquote>
+									</div>
+									
+								</div>
+							</section>
+												<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Choices</h2>
+									</header>
+									<div class="row">
+									<div class="col-6 col-12-small">
+									<div class="button fit" onclick="document.getElementById('f1').style.display='block'">Keep crying
+									</div></div>
+									<div class="col-6 col-12-small">
+									<div class="button fit" onclick="document.getElementById('f2').style.display='block'">Look at the other pictures in the phone</div>
+									</div>
+									</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div class="box">
+<div id="f1" style="display:none">
+<button class="button small" onclick="document.getElementById('f1').style.display='none'" style="float: right">X</button>
+  <h4>Keep crying</h4>
+  <blockquote>It’s… it’s just not fair. When will this all be over?</blockquote>
+</div>
+
+<div id="f2" style="display:none">
+<button class="button small" onclick="document.getElementById('f2').style.display='none'" style="float: right">X</button>
+  <h4>Look at the other pictures in the phone</h4>
+    <p>
+  <div id="div1" class="fa" style="font-size:36px;color:#ffcc33;"></div><span style="font-size:30px;color:#ffcc33;font-variant: small-caps;font-weight: bold;"> + Resilience</span>
+
+<script>
+function chargebattery() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf244;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf243;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf242;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf241;";
+    }, 3000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf240;";
+    }, 4000);
+}
+chargebattery();
+setInterval(chargebattery, 5000);
+</script>
+  </p>
+  <blockquote>What other photos do I have?</blockquote>
+  									<div class="tablet">
+  <div class="content">
+    <iframe src="level6choice.html" style="width:95%;border:none;height:100%; margin: auto;position: absolute;"></iframe>
+  </div>
+</div>
+  <p>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									How are you, honey?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Hey, Mom. Just… hanging out.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									Done your homework already?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Yeah.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									Made any friends?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									 I… think so.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									 Good. *Sits next to You* I’m just really proud of you, you know?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Proud?
+									</div>
+									</p>
+</div>
+
+</div>
+</div>
+							</section>								
+						<!-- Four -->
+							<section id="four">
+								<div class="inner">
+								<div class="row">
+<div class="col-6 col-12-small">
+<h3>If you have 100% Resilience</h3>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									It’s not easy doing this. I didn’t know this would happen. You’ve been amazing throughout it all, though, and for that, I’m so grateful.
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Yeah… but I know that it hasn’t been easy for you, too, mom. Going back to work and not having Dad-
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									He’ll be here soon.
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Yeah.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									I’ll be able to tell him how amazing you’ve been throughout it all.
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									I’ll do my best… and I can’t wait to tell him that you’ve been the best, too.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									Aw, honey…
+									</div>
+</div>
+<div class="col-6 col-12-small">
+<h3>If you have 100% Resilience</h3>
+<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									It’s not easy doing this. I didn’t know this would happen. I know it’s been so, so hard on you, though, and for that, I just want you to know that I support you. We’re going to figure this out one day at a time, okay?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Okay…
+									</div>
+																		<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									I miss him.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									 I do too, honey. But it’s okay. We’ll make it through, you and me.
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Will it ever end?
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									What?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									I don’t know- this war? Life like this?
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									 Life only really has one ending. Your father and I worked to make sure that that end doesn’t come anytime soon. All you need to do is keep going, okay?
+									</div>
+									<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									I guess… I just miss Ukraine.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									I know you do… but home is still with us, isn’t it? We still see beautiful skies. There are some Ukrainians in this complex. We still have ourselves. That’s something.
+									</div>
+																		<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									Yeah… yeah. You’re right. We still have us.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									 A part is better than nothing.
+									</div>
+																		<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									…okay. Well. Are you ready, Mom?
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									Huh? For what?
+									</div>
+																		<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									I have a vocabulary quiz on Friday. I understand nothing.
+									</div>
+									<div class="container darker">
+									<img src="images/Olena.png" alt="Avatar" class="right">
+									And you think I can help?
+									</div>
+																		<div class="container">
+									<img src="images/protag.png" alt="Avatar">
+									You better!
+									</div>
+</div>
+</div>
+<br>
+									<p align="center"><b>FADE TO BLACK</b></p>
+								</div>
+							</section>
+								
+				<!-- Next -->
+					<section id="Next">
+						<div class="inner">
+									<ul class="actions">
+										<li><a href="index.html" class="button">Homepage</a></li>
+										<li><a href="landing_end.html" class="button next">Ending Screens</a></li>
+									</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
