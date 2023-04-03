@@ -35,7 +35,8 @@
 							<li><a href="references.html">References</a></li>
 						</ul>
 						<ul class="actions stacked">
-							<li><a href="landing3.html" class="button primary fit">Sample Level</a></li>
+							<li><a href="landing3.html" class="button fit">Sample Level</a></li>
+							<li><a href="index.html#key" class="button fit" target="_blank"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Key</a></li>
 						</ul>
 					</nav>
 
@@ -59,21 +60,37 @@
 								</ul>
 								</p>
 								</div>
-								<i class="fa fa-desktop" id="myBtn" onclick="document.getElementById('id01').style.display='block'"></i>
+								<i class="fa fa-desktop modal-button" href="#myModal"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<i class="fa fa-user modal-button" href="#myModal2"></i>
 								</div>
 					</section>
-				<!-- Modal -->
+				<!-- Modal1 -->
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
 <div class="modal-content">
+<div class="modal-header">
+<button class="button small" onclick="document.getElementById('myModal').style.display='none'" style="float: right">X</button></div>
   <div class="modal-body">
-    <span class="close">&times;</span>
     <h2>Objective</h2>
     <p>Some text in the Modal Body</p>
     <p>Some other text...</p>
   </div>
 
+</div>
+</div>
+				<!-- Modal2 -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+<div class="modal-content">
+<div class="modal-header">
+<button class="button small" onclick="document.getElementById('myModal2').style.display='none'" style="float: right">X</button></div>
+  <div class="modal-body">
+    <h2>Statistics</h2>
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
 </div>
 </div>
 
@@ -228,7 +245,7 @@
 											The posters on the wall are of a few American rappers. Honestly, you don’t remember their names, but your friends really like them, so you collect the posters too.</div>
 											</div></span></div>
 											</div>
-											<div class="col-3"><span class="image fit"><div class="galcontainer"><img src="images/L1_closet.PNG" alt="" />
+											<div class="col-3"><span class="image fit"><div class="galcontainer"><img src="images/L1_closet.png" alt="" />
 											<div class="overlay">								
 									<div class="content">
 									The closet looks packed full. It probably needs to be organized soon.
@@ -443,10 +460,11 @@
 									<span class="image fit"><img src="images/3.png" alt="suitcases" data-position="50% 50%" /></span>
 									</p>
 </div>
-<div>
+</div>
+</div>
 							</section>							
 
-					</div>
+					
 						<!-- Eight -->
 							<section id="eight">
 								<div class="inner">
@@ -500,7 +518,7 @@
 									<p><a href="#Interlude" class="scrolly"><i class="icon solid fa-arrow-down fa-pull-left" style="padding-right: 10px"></i></a></p>
 									</div>
 							</section>
-							<hr class="major" />
+							
 								<!-- Interlude -->
 					<section id="Interlude">
 						<div class="inner">
@@ -514,13 +532,12 @@
 											<p>
   <blockquote>I remember watching the news. It… I didn’t know how to feel. It felt too far away, and yet, here it was, happening right in front of me.</blockquote></p></div>
   <div class="col-6 col-12-small">
-  <iframe  align="center" width="420" height="315" "position:fixed;"
-src="https://www.youtube.com/watch?v=prfaWHQoxVg">
-</iframe></div>
+</iframe><iframe align="center" width="420" height="315" src="https://www.youtube-nocookie.com/embed/prfaWHQoxVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 </div>
 						</div>
 						</div>
 					</section>	
+					</div>
 					<hr class="major" />
 				<!-- Next -->
 					<section id="Next">
@@ -536,14 +553,14 @@ src="https://www.youtube.com/watch?v=prfaWHQoxVg">
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="index.html#key" class="icon solid alt fa-key" target="_blank"><span class="label">Key</span></a></li>
+								<li><a href="index.html" class="icon solid alt fa-home"><span class="label">Home</span></a></li>
+								<li><a href="landing_overview.html" class="icon solid alt fa-gamepad"><span class="label">Game Overview</span></a></li>
+								<li><a href="references.html" class="icon solid alt fa-book"><span class="label">References</span></a></li>
+								<li><a href="landing_end.html#support" class="icon solid alt fa-info"><span class="label">Support</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; 2023</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
