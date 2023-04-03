@@ -2286,6 +2286,22 @@ input, select, textarea {
   text-align: right
 }
 
+/* Chat alt containers */
+.container.alt {
+  background-color: rgba(123, 126, 142, 0);
+  border-radius: 5px;
+  width: 75%;
+  height: 80px;
+  padding: 10px;
+  margin: 10px 50px;
+}
+
+/* Darker chat container alt */
+.container.alt.darker {
+  background-color: none;
+  text-align: right
+}
+
 /* Clear floats */
 .container::after {
   content: "";
@@ -2306,6 +2322,26 @@ input, select, textarea {
 /* Style the right image */
 .container img.right {
   float: right;
+  margin-left: 20px;
+  margin-right:10px;
+  vertical-align: baseline;
+}
+
+/* Style alt images */
+.container.alt img {
+  background-color: rgba(123, 126, 142, 0.5);
+    float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+  vertical-align: text-bottom;
+}
+
+/* Style the right alt image */
+.container.alt img.right {
+  background-color: rgba(123, 126, 142, 0.25);
+    float: right;
   margin-left: 20px;
   margin-right:10px;
   vertical-align: baseline;
@@ -3759,7 +3795,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/ukraine-gec013bba8_1280.png");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
