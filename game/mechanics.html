@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<title>To Exist in Pieces</title>
+				<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -28,14 +29,14 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="landing_open.html">Storyboard</a></li>
+							<li><a href="landing_overview.html">Game Overview</a></li>
+							<li><a href="references.html">References</a></li>
 						</ul>
 						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="landing3.html" class="button fit">Sample Level</a></li>
+							<li><a href="index.html#key" class="button fit" target="_blank"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Key</a></li>
 						</ul>
 					</nav>
 
@@ -48,43 +49,55 @@
 									<header class="major">
 										<h1>Game Mechanics</h1>
 									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+									<span class="image main"><img src="images/over_controllerbanner.png" alt="" /></span>
+									
+									<h2>Game Structure</h2>
+									<p>
+									The game consists of 6 levels, each of which corresponds to a scene in the protagonist's narrative. Each level uses narrative, interactivity, and exploration to create an immersive environment for the player (De Castell & Jenson, 2003).</p>
+									<h3>Level Objectives and Rules</h3>
 <p>In each level, the player cannot progress until they have completed the following:</p>
 <ul>
     <li>Interacted with all of the interactable elements</li>
     <li>Looked at all of the artifacts</li>
     <li>Spoken to every interactable character in the room. This unlocks one additional character for interaction. The player returns to speak to this character, triggering the cutscene.</li>
 	</ul>
-<p>Each interaction works as a flashback memory and certain interactions give the player solid memories.</p>
+<p>Each interaction acts as a flashback memory. Certain interactions, indicated by a sound and flash of light, give the player solid memories.</p>
 <ul>
-    <li>These memories are collected as items in the inventory - 10 items to be collected before moving to the next level.</li>
+    <li>These solid memories are collected as items in the inventory &#8212; up to 10 items must be collected before moving to the next level.</li>
     <li>A memory can be a picture, a story, or an item</li>
 	</ul>
-<p>During cutscenes, the player can make choices that determine whether the scene progresses, but does not determine the outcome of the scene</p>
+<p>During cutscenes, the player can make choices that determine <i>whether</i> the scene progresses, but these choices <i>do not</i> determine the outcome of the scene. This limited choice reflects the themes and circumstances in the game's narrative:</p>
 <ul>
-    <li>Wrong choice: The scene does not progress (circular)</li>
-    <li>Right choice: The remainder of the scene plays out and the player advances to the next level</li>
+    <li>Wrong choice: The scene does not progress (circular).</li>
+    <li>Right choice: The remainder of the scene plays out and the player advances to the next level.</li>
 	</ul>
-<h4>Choices in interactions impact player’s points on one scale: resilience</h4>
-    <p>Script will indicate whether the option will build or take away from resilience</p>
+<h4>Choices during interactions also impact the player’s points on one scale: Resilience</h4>
+    <p>The game's script indicates whether the option will build or take away from resilience:</p>
 	<ul>
         <li>1 option is more self-centered and anxious</li>
         <li>1 option is calmer and more empathetic</li>
 		</ul>
-<h4> Player’s stats will track 3 measures: Stress, Resilience, Items</h4>
-    <p>Stress measures the state of the environment - is always 100%</p>
+		<p>Choices that facilitate emotional resilience, resilient thinking, and recovery &#8212;
+such as creating social connectins, using flexible thinking, or balancing demands &#8212;
+ will build resilience (Cornell University). 
+		<p><span class="image"><img src="images/player_stats.png" alt="player statistics screen" style="width:70%;" /></span></p>
+<h4> The player’s statistics window will track 3 measures: Stress, Resilience, Items</h4>
+    <p><b>Stress</b> measures the state of the environment &#8212;
+while some environments have a higher stress level than others, the stress meter is always set to 100%</p>
 	<ul>
         <li>Indicates the challenges that the character is going through at the time</li>
-    <p>Resilience measures the state of the character, based on their choices - Goal is to get 100%</p>
+		</ul>
+    <p><b>Resilience</b> measures the state of the character, based on their choices &#8212;
+ The <b>goal</b> is to get 100% Resilience by the end of the game.</p>
 	<ul>
-        <li>need to gain sufficient resilience to meet the amount of stress in that situation</li>
-        <li>Player will be able to view these choices’ impacts on their stat, which will inform them of how the character is changing from these events</li></ul>
-    <p>Items measures the progress in collecting the memories needed to advance in that level: ie, 8 out of 10</p>
-    
-<p>Control scheme, that includes mouse, keyboard and motion controllers, is efficient and familiar to the user. These mainstream input devices allow the player to focus on the game and lead to an immersive experience.</p>
+        <li>In each level, the player needs to gain sufficient resilience to meet the amount of stress in that situation.</li>
+        <li>The Player will be able to view how choices impact their resilience score, giving them insight into how the protagonist is changing due to these events.</li></ul>
+    <p><b>Items</b> measures the player's progress in collecting the memories needed to advance in that level: ie, 8 out of 10</p>
+    <h3>Control scheme</h3>
+<p>The game uses control schemes, includes mouse, keyboard, or touchscreen, That are efficient and familiar to the user. These mainstream input devices allow the player to focus on the game, instead of learning new controls, leading to an immersive experience.</p>
 <ul>
-    <li>mouse – rotates the character</li>
-    <li>keyboard – initiates forward and sideways movement; hotkeys – shortcuts to some of the character’s movements</li>
+    <li>Mouse – rotates the character</li>
+    <li>Keyboard – initiates forward and sideways movement. Hotkeys provide shortcuts to some of the character’s movements</li>
 	</ul>
 								</div>
 							</section>
@@ -94,6 +107,7 @@
 					<section id="Next">
 						<div class="inner">
 									<ul class="actions">
+									<li><a href="landing_overview.html" class="button">Back to Overview</a></li>
 										<li><a href="index.html" class="button">Homepage</a></li>
 										
 									</ul>
@@ -104,14 +118,14 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="index.html#key" class="icon solid alt fa-key"><span class="label">Key</span></a></li>
+								<li><a href="index.html" class="icon solid alt fa-home"><span class="label">Home</span></a></li>
+								<li><a href="landing_overview.html" class="icon solid alt fa-gamepad"><span class="label">Game Overview</span></a></li>
+								<li><a href="references.html" class="icon solid alt fa-book"><span class="label">References</span></a></li>
+								<li><a href="landing_end.html#support" class="icon solid alt fa-info"><span class="label">Support</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; 2023</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
