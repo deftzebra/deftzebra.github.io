@@ -358,6 +358,7 @@ input, select, textarea {
 
 		.row > .col-3 {
 			width: 25%;
+			display: table-cell;
 		}
 
 		.row > .off-3 {
@@ -2409,7 +2410,7 @@ input, select, textarea {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 2; /* Sit on top */
+  z-index: 3; /* Sit on top */
   left: 0;
   top: 0;
   padding-top: 100px; /* Location of the box */
@@ -2447,6 +2448,7 @@ input, select, textarea {
   border: solid 1px rgba(212, 212, 255, 0.1);
   width: 80%; /* Could be more or less, depending on screen size */
   margin-bottom: 2em; 
+  padding: 10px;
 }
 
 /* Modal Button */
@@ -3276,27 +3278,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #67aaa7;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #1f4f83;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #226faf;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #dcbc51;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #16305e ;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #36694b;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3825,7 +3827,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/ukraine-gec013bba8_1280.png");
+		background-image: url("../../images/index_flag.png");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3936,27 +3938,27 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #67aaa7;
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #1f4f83;
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #226faf;
 		}
 
 		#banner.style4:after {
-			background-color: #e7b788;
+			background-color: #dcbc51;
 		}
 
 		#banner.style5:after {
-			background-color: #8ea9e8;
+			background-color: #16305e;
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #36694b;
 		}
 
 		body.is-preload #banner:after {
